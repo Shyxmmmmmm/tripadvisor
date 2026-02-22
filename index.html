@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tripadvisor:  Over a billion review      </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -37,6 +37,7 @@
                 <i class="fa-solid fa-earth-asia" style="color: hsl(144, 100%, 8%);"></i>
                 <p> | </p>
                 <p>INR </p>
+                
             </div>
         </div>
 
@@ -55,30 +56,34 @@
     <!--section2-->
 
     <div class="cls2">
-        <h1>Where To?</h1>
-
+        <h1 id="cls22">Where To?</h1>
     </div>
 
+    <script>
+        function onClick(text){
+            document.getElementById('cls22').innerText=text;
+        }
+    </script>
 
     <!--section3-->
 
     <div class="cls3">
-        <div class="cls3_1">
+        <div class="cls3_1" onclick="onClick('Where To?')">
             <i class="fa-regular fa-house fa-lg" style="color: hsl(144, 100%, 8%);"></i>
             <p>Search All</p>
         </div>
 
-        <div class="cls3_1">
+        <div class="cls3_1" onclick="onClick('Stay somewhere great')">
             <i class="fa-solid fa-bed" style="color: hsl(144, 100%, 8%);"></i>
             <p>Hotels</p>
         </div>
 
-        <div class="cls3_1">
+        <div class="cls3_1" onclick="onClick('Do something fun')">
             <i class="fa-regular fa-camera fa-lg" style="color: hsl(144, 100%, 8%);"></i>
             <p>Things To Do</p>
         </div>
 
-        <div class="cls3_1">
+        <div class="cls3_1" onclick="onClick('Find places to eat')">
             <i class="fa-solid fa-utensils fa-lg" style="color: hsl(144, 100%, 8%);"></i>
             <p>Restuarants</p>
         </div>

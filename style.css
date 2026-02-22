@@ -125,12 +125,17 @@ body {
     gap: 5px;
     cursor: pointer;
     padding: 10px 0px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid transparent;
 }
 
 .cls3_1:hover {
     border-bottom: 2px solid hsl(144, 100%, 8%);
 }
+
+
+
+
+
 
 .input {
     display: flex;
@@ -300,6 +305,7 @@ body {
     margin-left: 120px;
     margin-right: 120px;
     gap: 20px;
+    
 }
 
 .cls6_2 {
@@ -316,6 +322,7 @@ body {
     height: 275px;
     object-fit: cover;
     border-radius: 5px;
+    
 }
 
 
@@ -343,7 +350,7 @@ body {
 
 .cls6_2 img:hover {
     background-color: lightgray;
-    opacity: 0.9;
+    opacity: 0.7;
 
 }
 
