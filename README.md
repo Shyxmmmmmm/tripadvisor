@@ -65,11 +65,11 @@ TripAdvisor-Clone/
 
 ## 🔗 Live Demo
 
-(Add your deployed link here if hosted)
+https://shyxmmmmmm.github.io/tripadvisor/
 
 ---
 
 ### 📌 Author
 Developed as part of my frontend learning journey.
 
-https://shyxmmmmmm.github.io/tripadvisor/
+
